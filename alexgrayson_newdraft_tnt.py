@@ -511,8 +511,6 @@ def ffb3(ids,names,passlist):
 			loop+=1
 		except requests.exceptions.ConnectionError:
 			time.sleep(10)
-		except Exception as e:
-			pass
 
 ##################################
 
@@ -606,9 +604,7 @@ def ffb2(ids,names,passlist):
 			loop+=1
 		except requests.exceptions.ConnectionError:
 			time.sleep(10)
-		except Exception as e:
-			pass
-       
+			
 ##################################
 
 ##METHOD 1 B-GRAPH
